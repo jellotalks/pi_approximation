@@ -2,12 +2,10 @@
 import sys
 
 def main(argv):
+    is_verbose = True if '-v' in argv else False
+
     num_points = get_input_as_int("How many points should be generated? ")
     
-    if '-v' in argv:
-        is_verbose = True
-    else:
-        is_verbose = False
     
     
 
